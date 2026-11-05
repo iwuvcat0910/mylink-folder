@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyLink | 나의 링크 모음</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: linear-gradient(145deg, #e6f2ff, #f8f1ff);
+      color: #273449;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+    }
+    .card {
+      width: 100%;
+      max-width: 420px;
+      padding: 38px 26px;
+      background: white;
+      border-radius: 28px;
+      box-shadow: 0 15px 45px rgba(40, 55, 90, 0.1);
+      text-align: center;
+    }
+    .avatar {
+      width: 90px;
+      height: 90px;
+      margin: 0 auto 18px;
+      border-radius: 50%;
+      background: #e7eeff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 42px;
+    }
+    h1 {
+      font-size: 26px;
+      margin: 0 0 10px;
+    }
+    .intro {
+      font-size: 14px;
+      color: #788398;
+      line-height: 1.7;
+      margin-bottom: 30px;
+    }
+    .links {
+      display: grid;
+      gap: 13px;
+    }
+    .link {
+      display: block;
+      padding: 17px 20px;
+      border-radius: 14px;
+      background: #f3f6ff;
+      color: #273449;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    .link:hover {
+      background: #dfe8ff;
+      transform: translateY(-3px);
+    }
+    footer {
+      margin-top: 30px;
+      font-size: 12px;
+      color: #9aa5b5;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="avatar" aria-hidden="true">✨</div>
+    <h1>MyLink</h1>
+    <p class="intro">
+      안녕하세요! 저의 개인 링크 모음입니다.<br>
+      아래에서 다양한 활동을 확인해 보세요.
+    </p>
+ 
+<div class="links">
+  <a class="link"
+     href="https://github.com/iwuvcat0910"
+     target="_blank" rel="noopener noreferrer">
+    💻 나의 GitHub
+  </a>
+
+  <a class="link"
+     href="https://m.blog.naver.com/yoon_oon"
+     target="_blank" rel="noopener noreferrer">
+    📝 네이버 블로그
+  </a>
+
+  <a class="link"
+     href="https://www.instagram.com/jeongyooonn/"
+     target="_blank" rel="noopener noreferrer">
+    📸 인스타그램
+  </a>
+
+  <a class="link"
+     href="https://youtube.com/@uwuwaaua"
+     target="_blank" rel="noopener noreferrer">
+    🎬 유튜브
+  </a>
+  
+</div>
+
+
+    <footer>Made with ♡ | MyLink Project 2026</footer>
+  </main>
+</body>
+</html>
